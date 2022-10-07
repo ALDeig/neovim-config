@@ -387,8 +387,6 @@ lua << EOF
 require('telescope').load_extension('fzf')
 EOF
 
-" Fast component creating for React app
-command CreateComponent :terminal '/Users/alexeygoloburdin/code/lms/frontend/createcomponent.py'
 
 " White colors for LSP messages in code
 set termguicolors
